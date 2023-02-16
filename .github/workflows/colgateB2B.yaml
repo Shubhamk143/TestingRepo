@@ -2,7 +2,7 @@ name: ColgateB2B-Functioanl-test
 
 on:
   schedule:
-  - cron: '52 13 * * *'
+  - cron: '5 * * * *'
 
   workflow_dispatch:
   push:
@@ -25,4 +25,4 @@ jobs:
         - uses: actions/upload-artifact@v1
           with:
             name: Allure Reports
-            path: ./allure-report
+            path: ./allure-results
