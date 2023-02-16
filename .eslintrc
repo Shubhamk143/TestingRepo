@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "smells",
+    "promise",
+    "lodash",
+    "lodash-smells"
+  ],
+  "extends": [
+    "airbnb/base",
+    "prettier",
+    "prettier/standard",
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:promise/recommended",
+    "plugin:lodash/recommended"
+  ],
+  "rules": {
+    "max-len": [2, {"code": 300, "tabWidth": 2, "ignoreStrings": true, "ignoreTemplateLiterals": true}],
+    "import/no-named-as-default": 0
+  },
+  "globals": {
+    "browser": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "Expected_Test_Data":{
+    "Header_ExternalLink":["Professional","Shop","Direct","Oral Health Network"],
+    "Header_ExternalUrl":["https://www.colgateprofessional.com","","https://colgatedirect.com","https://www.colgateoralhealthnetwork.com"],
+    "Shop_by_Patient_Condition": ["Sensitivity","Ortho","Gingivitis / Perio","Caries","Whitening","Erosion","Dry Mouth"],
+    "Toothbrush_category": ["By Bristle Type","By Brush Head Size"],
+    "Toothbrush_subcategory" :["Soft","Extra Soft","Ultra Soft","View all","Compact","Ultra Compact","Youth (Ages 5+)","Junior  (Ages 0-4)","View All"],
+    "Whitening_category":["Take Home","In Office"],
+    "Whitening_subcategory" : ["Colgate® Optic White® Professional","Colgate® Optic White® Full Kit","Colgate® Optic White® Touch-Up ","View All","Colgate® Optic White® Professional","Colgate® Optic White® Touch-Up ","View All"],
+    "Fluoride_category" :["By Product","By Formula"],
+    "Fluoride_subcategory":["Colgate® PreviDent® Series","Colgate® Gel-Kam®","Colgate® PerioGard® Rinse","Colgate® Peroxyl® Rinse","Colgate® Phos-Flur® Rinse","View all","Toothpaste","Gel","Varnish","Oral Rinses","View All"],
+    "UsefulLinks":["Terms of Use","Privacy Policy","Cookie Consent Tool","Do Not Sell My Personal Information"],
+    "Shop_Products_Footer":["All Products","Toothbrushes","Fluorides", "Whitening","Mouthwash","Toothpaste", "Floss"]
+},
+    "Expected_Text":{
+        "Static_Banner_Text1":"Quick & Easy Ordering",
+        "Static_Banner_Text2":"Save More with Smile+ Autoship",
+        "Static_Banner_Text3":"Trusted by Dental Professionals Worldwide",
+        "FacebookHomePage":"Colgate for the Dental Professional",
+        "Social_Media_Banner":"We Deliver Smiles",
+        "Instagram_Title":"Colgate Professional 🦷 (@colgateprof_na) • Instagram photos and videos",
+        "Spotlight_Banner_Product":"New Colgate® Optic White Professional",
+        "Spotlight_Banner_Product_Decs":"Extraordinary whitening made simple. Help patients achieve a dramatically whiter smile at home in just 5 days.*",
+        "Marketing_Banner_Desc":"Colgate celebrates dental professionals’ commitment and optimism. Explore our innovative initiatives, scholarships, and education to help you make a significant difference every day."
+    },
+    "User_Input_Data":{
+
+
+    }
+
+
+
+
+
+
+}

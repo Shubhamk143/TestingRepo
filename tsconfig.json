@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+      "outDir": "./built",
+      "allowJs": true,
+      "target": "es5",
+      "types": ["node", "webdriverio/sync", "@wdio/cucumber-framework", "expect-webdriverio"],                           /* Type declaration files to be included in compilation. */
+      "allowUnreachableCode": false,
+      "esModuleInterop": true,  
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "typeRoots": [ "./typings" ],
+      "skipLibCheck": true,                     /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include": [
+      "./**/*"
+  ],
+  "exclude": [
+      "./plugins/**/*",
+      "./typings/**/*",
+      "./built/**/*" // This is what fixed it!
+  ]
+}

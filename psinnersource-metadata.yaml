@@ -1,0 +1,29 @@
+name: Web testing
+description: In-depth web testing using TypeScript, WDIO-7, Cucumber.
+subGroup: Functional Testing
+groupName: Quality Engineering
+productName: TESTx
+productOwners:
+  - "Indra Prabha Sharma - indra.sharma@publicissapient.com"
+productBacklogUrl:
+logo:
+urls:
+  - shortDescription: Code & Documentation
+    link: https://pscode.lioncloud.net/psinnersource/quality-engineering/tang-js/webautomation-js 
+tags:
+  - "#QE"
+  - "#functional"
+  - "#testing"
+  - "#web"
+  - "#api"
+  - "#accessibility"
+  - "#lighthouse"
+  - "#WDIO7"
+
+endorsements:
+  - "Lloyds Banking Group"
+upcomingFeatures:
+keyContacts:
+  - "Amit Kumar Garg - amit.garg@publicissapient.com"
+benefits: To be added
+installationTime: 5 to 10 minutes
