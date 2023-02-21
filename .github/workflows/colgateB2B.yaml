@@ -24,5 +24,5 @@ jobs:
           run: ENV=bld yarn local
         - uses: actions/upload-artifact@v1
           with:
-            name: Allure Reports
-            path: ./allure-results
+            name: HTML Report
+            path: ./src/reports
