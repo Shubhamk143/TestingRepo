@@ -1,8 +1,8 @@
 name: ColgateB2B-Functioanl-test
 
 on:
-  schedule:
-  - cron: '0 09 * * *'
+  #schedule:
+  #- cron: '0 09 * * *'
 
   workflow_dispatch:
   push:
