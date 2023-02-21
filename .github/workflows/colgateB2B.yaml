@@ -29,3 +29,42 @@ jobs:
           with:
             name: HTML Report
             path: ./src/reports
+        - name: Send mail
+          uses: dawidd6/action-send-mail@v3
+          with:
+    # Specify connection via URL (replaces server_address, server_port, secure,
+    # username and password)
+    #
+    # Format:
+    #
+    #  * smtp://skagilkar143:Kshubham@143@gmail.com:465
+    #  * smtp+starttls://user:password@server:port
+           connection_url: ${{secrets.MAIL_CONNECTION}}
+         # Required mail server address if not connection_url:
+           server_address: smtp.gmail.com
+    # Server port, default 25:
+           server_port: 465
+    # Optional whether this connection use TLS (default is true if server_port is 465)
+           secure: true
+    # Optional (recommended) mail server username:
+           username: ${{secrets.MAIL_USERNAME}}
+    # Optional (recommended) mail server password:
+           password: ${{secrets.MAIL_PASSWORD}}
+    # Required mail subject:
+           subject: Github Actions job result
+    # Required recipients' addresses:
+           to: abhijeetghevade4@gmail.com,skagilkar143@gmail.com
+    # Required sender full name (address can be skipped):
+           from: shubham kagilkar<skagilkar143@gmail.com>
+    # Optional plain body:
+           body: Build job of ${{github.repository}} completed successfully!
+    # Optional HTML body read from file:
+           html_body: ./src/report/*.html
+    # Optional carbon copy recipients:
+           ignore_cert: true
+    # Optional converting Markdown to HTML (set content_type to text/html too):
+           convert_markdown: true
+    # Optional attachments:
+           attachments: attachments.zip,git.diff,./dist/static/*.js
+    # Optional priority: 'high', 'normal' (default) or 'low'
+           priority: low
