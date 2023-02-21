@@ -57,14 +57,14 @@ jobs:
     # Required sender full name (address can be skipped):
            from: shubham kagilkar<skagilkar143@gmail.com>
     # Optional plain body:
-           body: Build job of ${{github.repository}} completed successfully!
+           body: Automation Script run successfully!
     # Optional HTML body read from file:
-           html_body: ./src/report/*.html
+           html_body: this_is_result_from_Github_Action_from.html 
     # Optional carbon copy recipients:
            ignore_cert: true
     # Optional converting Markdown to HTML (set content_type to text/html too):
            convert_markdown: true
     # Optional attachments:
-           attachments: attachments.zip,git.diff,./dist/static/*.js
+           attachments: ./src\reports\cucumber_report.html
     # Optional priority: 'high', 'normal' (default) or 'low'
-           priority: low
+           priority: high
